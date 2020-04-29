@@ -36,3 +36,11 @@
 * BR2: La única interacción que tendrá el usuario con las estadísticas que se generen conforme la aplicación sea utilizada día con día, es la consulta o la eliminación de las estadísticas, siempre y cuando el usuario así lo desee.
 * BR3: Al llevar a cabo el mapeo del tiempo por parte del usuario, podrán dejarse espacios vacíos representados por una zona gris en la gráfica del tiempo, siempre y cuando los espacios vacíos no sumen un tiempo acumulado de 8 horas de las 24 que se tienen disponibles al día.
 
+## Documento de Especificación de Requerimientos
+
+## Modelo de Casos de Uso
+
+## modelo de Procesos de Desarrollo
+
+## Herramientas de software empleadas
+
