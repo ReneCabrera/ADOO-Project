@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <div id="error"></div>
+    <form id="form" action="gdd" method="GET">
+        <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required/>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="name" type="password">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div>
+        <p id="paragraph">You can change this paragraph if you click the button</p>
+        <button type="button" onclick="changeParagraph()">Second version</button> 
+        <button type="button" onclick="originalParagraph()">First version</button>
+    </div>
+
+    <div>
+        <p>By clicking the button below, you can display an alert window</p>
+        <button id="message" onclick="display()">Try it!</button>
+    </div>
+    
+</body>
